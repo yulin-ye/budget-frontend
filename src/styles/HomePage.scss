@@ -1,0 +1,48 @@
+.home-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .content {
+    display: flex;
+
+    .left-panel {
+      margin-right: 2rem;
+
+      &_title {
+        margin: 1rem;
+      }
+
+      &_item {
+        margin: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        .icon {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+    .right-panel {
+      margin: 1rem;
+
+      &_button {
+        border: 5px solid lightblue;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        width: 10rem;
+        height: 2.5rem;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .red {
+    color: red;
+  }
+  .green {
+    color: green;
+  }
+}

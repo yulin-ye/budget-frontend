@@ -1,0 +1,37 @@
+.edit-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+
+    .icon {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .button-panel {
+    display: flex;
+    justify-content: space-around;
+
+    .button {
+      border: 5px solid lightblue;
+      border-radius: 0.5rem;
+      width: 7rem;
+      height: 2rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .error {
+    border: 5px solid red;
+  }
+  .warning {
+    color: red;
+  }
+}
